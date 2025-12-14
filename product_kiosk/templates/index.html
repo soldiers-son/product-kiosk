@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ brand.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Shanti&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>{{ brand.name }}</h1>
+        <em><p>{{ brand.title }}</p></em>
+        <img class="qr" src="static\assets\thumbnails\folkish_qr.jpg " alt="">
+        <img class="logo" src="static/assets/thumbnails/folkish_logo.jpg" alt="">
+        <p class="header_info">Email: youremail@gmail.com <br>
+        Cahsapp: ... <br>
+        Venmo: ...</p>
+    </header>
+    <section class="projects">
+        <div class="project-container">
+                <div class="project">
+                    <h3>Mushroom Supplies</h3>
+                    {% for items in mushroom_items %}
+                    <p>{{items.item}} -- {{ items.price }}</p>
+                    {% endfor %}
+                </div>
+                <div class="project">
+                    <h3>Apothecary</h3>
+                    {% for items in apothecary %}
+                    <p>{{items.item}} -- {{ items.price }}</p>
+                    {% endfor %}
+                </div>
+                <div class="project">
+                    <h3>Plants & Cacti</h3>
+                    {% for items in plants %}
+                    <p>{{items.item}} -- {{ items.price }}</p>
+                    {% endfor %}
+                </div>
+                <div class="project">
+                    <h3>Creations</h3>
+                    {% for items in craft %}
+                    <p>{{items.item}} -- {{ items.price }}</p>
+                    {% endfor %}
+                </div>
+        </div>
+    </section>
+</body>
+</html>
