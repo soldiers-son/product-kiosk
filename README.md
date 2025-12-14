@@ -22,6 +22,7 @@ work makes this project possible.
 ----------------------------------------------------
 
 I built this for a friend and I for when we go to farmers markets together. I wanted something that we could display our product items/prices and was simple. I felt this met our needs and wanted to share.
+<img src="/product_kiosk/static/assets/demo.png">
 
 ----------------------------------------------------
 2. Features
