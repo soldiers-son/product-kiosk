@@ -1,4 +1,5 @@
 # product-kiosk
+
 Beginner Flask Web Application that is designed to be a product kiosk display for small business owners.
 
 Author: soldiers-son
@@ -9,11 +10,12 @@ Python: 3.11+
 
 Platform: Windows / Linux / Mac
 
-Dependencies:flask 
+Dependencies: Flask, Docker
 
 ----------------------------------------------------
 0. Acknowledgments
 ----------------------------------------------------
+
 Thank you to the open source community, whose 
 work makes this project possible.
 
@@ -27,13 +29,20 @@ I built this for a friend and I for when we go to farmers markets together. I wa
 ----------------------------------------------------
 2. Features
 ----------------------------------------------------
--Business Name
+-Business Name & Info
 
 -Logo
 
 -IG QR
 
 -Product category with  item/price display
+
+-Flask backend with multiple routes
+
+-Template rendering using Jinja2
+
+-Basic frontend styling with CSS
+
 
 ----------------------------------------------------
 3. Requirements
@@ -46,20 +55,13 @@ Flask, Docker, python3+
 2. Place the project folder on your desktop or 
    desired directory.
 3. Install Python and required dependencies.
-4. Run the application:
-
-   Windows:
-   > python Project file
-
-   Linux/Mac:
-   $ python3 Project file
 
 ----------------------------------------------------
 5. Dependencies
 ----------------------------------------------------
 Install required packages via pip:
 
-   pip install 
+   pip install flask
 
 ----------------------------------------------------
 6. Usage
