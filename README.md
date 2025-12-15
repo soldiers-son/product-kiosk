@@ -43,6 +43,8 @@ I built this for a friend and I for when we go to farmers markets together. I wa
 
 -Basic frontend styling with CSS
 
+-SQLite3 Data stoage and retrieval
+
 
 ----------------------------------------------------
 3. Requirements
@@ -82,6 +84,7 @@ docker compose up
 7. Future Goals
 ----------------------------------------------------
 Planned expansions include:
+
 
 
 ----------------------------------------------------
