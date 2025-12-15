@@ -43,7 +43,7 @@ I built this for a friend and I for when we go to farmers markets together. I wa
 
 -Basic frontend styling with CSS
 
--SQLite3 Data stoage and retrieval
+-SQLite3 Data storage and retrieval
 
 
 ----------------------------------------------------
